@@ -1,0 +1,19 @@
+.header-container{
+  border-top:10px solid grey;
+  border-bottom:10px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo-container{
+    display: flex;
+    align-items: center;
+    .logo{
+      width: 50%;
+    }
+  }
+  .sub-title{
+    color: grey;
+    font-weight: lighter;
+    font-family: cursive ;
+  }
+}
